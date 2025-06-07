@@ -10,7 +10,7 @@ public class HUDCompassBehaviour : MonoBehaviour
 
     public TMP_FontAsset compassFontAsset;
     
-    private const String COMPASS_STRING = "|--:--N--:--|--:--E--:--|--:--S--:--|--:--W--:--|--:--N--:--|";
+    private const String COMPASS_STRING = "|--:--W--:--|--:--N--:--|--:--E--:--|--:--S--:--|--:--W--:--|";
     private const int COMPASS_WINDOW = 13;
     private const float COMPASS_STEP_SIZE = 360f / 48f;
     
